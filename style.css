@@ -79,7 +79,7 @@ font-family: sans-serif, "Helvetica Neue", "Lucida Grande", Arial;
 
 
     .home-block{
-        background-image: url('img/front.jpg');
+        background-image: url('front.jpg');
         background-size: cover;
       
     }
@@ -98,7 +98,7 @@ font-family: sans-serif, "Helvetica Neue", "Lucida Grande", Arial;
     }
 
     .about-block{
-        background-image: url('img/contact.jpg');
+        background-image: url('contact.jpg');
         background-size: cover;    
     }
         .container {
@@ -180,12 +180,12 @@ font-family: sans-serif, "Helvetica Neue", "Lucida Grande", Arial;
     }
 
    .contact-block{
-        background-image: url('img/about.jpg');
+        background-image: url('about.jpg');
         background-size: cover;
       
     }
    .buy-block{
-        background-image: url('img/join.jpg');
+        background-image: url('join.jpg');
         background-size: cover;
       align-items: center;
       justify-content: center;
