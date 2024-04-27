@@ -1,0 +1,260 @@
+   * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+font-family: sans-serif, "Helvetica Neue", "Lucida Grande", Arial;
+  transition: 1.5s;
+  scroll-behavior: smooth;
+} 
+   body {
+      margin: 0;
+      align-content: center;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      background-color:  #dfdfdf;
+      background-size: cover;
+      background-position: center;
+      scroll-behavior: smooth;
+    }
+    section {
+      padding: 20px;
+      margin: 40px auto;
+      margin-top:50px;
+      max-width: 100%;
+      height: 700px;
+      box-shadow: 5px 6px 10px 8px rgb(0 0 0 / 46%);
+      scroll-behavior: smooth;
+    }
+    a{
+        text-decoration: none;
+        text-decoration-style: none;
+    }
+    .pic{
+    height: 50px;
+    float: left;
+    margin-right: -10px;
+    }    
+.header {
+  overflow: hidden;
+  background-color: #f1f1f1;
+  padding: 15px 10px;
+}
+.header a {
+  float: left;
+  color: black;
+  text-align: center;
+  padding: 12px;
+  text-decoration: none;
+  font-size: 18px;
+  line-height: 25px;
+  border-radius: 4px;
+  transition: background-color 1.5s;
+}
+
+/* Style the logo link (notice that we set the same value of line-height and font-size to prevent the header to increase when the font gets bigger */
+.header a.logo {
+  font-size: 25px;
+  font-weight: bold;
+}
+
+/* Change the background color on mouse-over */
+.header a:hover {
+  opacity: 0.10;
+  color: black;
+  transition: background-color 0.3s ease;
+  cursor: pointer;
+}
+
+/* Style the active/current link*/
+.header a.active {
+  background-color: dodgerblue;
+  color: white;
+}
+
+/* Float the link section to the right */
+.header-right {
+  float: right;
+}
+
+
+    .home-block{
+        background-image: url('img/front.jpg');
+        background-size: cover;
+      
+    }
+    .home-text{
+        padding: 10px;
+
+
+    }
+    .home-text h2{
+        font-weight: bolder;
+        font-size: 90px;
+        margin-top: 200px;
+        font-weight: 900;
+        font-stretch: expanded;
+
+    }
+
+    .about-block{
+        background-image: url('img/contact.jpg');
+        background-size: cover;    
+    }
+        .container {
+        display: flex; /* Use flexbox */
+        justify-content: center;
+    }
+
+    .box {
+        flex: 0; /* Equal width for both boxes */
+        padding: 20px;
+        background-color: #000000b5;
+        margin-right: 10px; /* Space between boxes */
+        border-radius: 20px;
+        height: 70px;
+
+    }
+    .box p {
+     display: none;
+    }    
+    .box2 {
+        flex: 0; /* Equal width for both boxes */
+        padding: 20px;
+        background-color: black;
+        border-radius: 20px;
+        margin-right: 10px; /* Space between boxes */
+        height: 70px;
+    }
+     .box3 {
+        flex: 0; /* Equal width for both boxes */
+        padding: 20px;
+        background-color: #000000b5;
+        margin-right: 10px; /* Space between boxes */
+        border-radius: 20px;
+        height: 70px;
+    }
+    .box4 {
+        flex: 0; /* Equal width for both boxes */
+        padding: 20px;
+        background-color: black;
+        border-radius: 20px;
+        margin-right: 10px; /* Space between boxes */
+        height: 70px;
+    }
+    .box:hover{
+        flex: 1;
+        height: 400px;
+        cursor: pointer;
+        display: all;      
+    } 
+    .box2:hover{
+        flex: 1;
+        color:white;
+         height: 400px;
+         cursor: pointer;
+    }
+    .box3:hover{
+        flex: 1;
+        height: 400px;
+        cursor: pointer;
+    } 
+    .box4:hover{
+        flex: 1;
+        color:white;
+         height: 400px;
+         cursor: pointer;
+    }
+    .about-text{
+        padding: 10px;
+
+
+    }
+    .about-text h2{
+        font-weight: bolder;
+        font-size: 40px;
+        margin-top: 5px;
+        font-weight: 900;
+        font-stretch: expanded;
+
+    }
+
+   .contact-block{
+        background-image: url('img/about.jpg');
+        background-size: cover;
+      
+    }
+   .buy-block{
+        background-image: url('img/join.jpg');
+        background-size: cover;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+     }
+
+    .buy-text{
+        
+        padding: 10px;
+        background-color: #000000bf;
+        border-radius: 20px;
+        color: white;
+        width: 800px;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        margin:200px 250px;
+    } 
+    .buy-text h2{
+        font-weight: bolder;
+         font-size: 90px;
+        
+       font-weight: 900;
+       font-stretch: expanded;
+
+    }
+    .enroll-button{
+        margin-top: 30px;
+        background-color: black;
+        color:white;
+        padding: 20px 50px;
+        font-size: 18px;
+        transition: 0.5s;
+        border-radius: 20px;
+
+    }
+    .enroll-button:hover{
+        opacity: 0.5;
+        padding: 25px 55px;
+        font-size: 22PX;
+        cursor: pointer;
+    }
+  
+
+
+
+
+
+
+
+
+
+
+
+    footer {
+        background-color: #f1f1f1;
+        color: black;
+        text-align: center;
+        padding: 15px 100px;
+        margin-top: 100px;
+    }    
+    /* Optional: Media query for responsiveness */
+    @media (max-width: 768px) {
+        .container {
+            flex-direction: column; /* Stack boxes vertically on smaller screens */
+        }
+
+        .box {
+            margin-right: 0; /* Remove margin between stacked boxes */
+            margin-bottom: 10px; /* Add space below stacked boxes */
+        }
+    }
